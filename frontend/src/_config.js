@@ -6,13 +6,13 @@ export const config = {
   // auth0 setup
   auth0: {
     domain: 'serverlessqa.auth0.com',
-    clientId: '92uOHMc6ndhp4lElK1UI0AIkuw7jQIlb',
+    clientId: 'PDBGl0xX7q7Yi8w1pdpD19T3LBRQMPPu',
     //apiUrl: 'throwaway',
     callbackUrl: (isDev) ? 'http://localhost:3000/callback' : 'https://debug-auth0.netlify.com/callback'
   },
   // api endpoints
   api: {
-    forms: 'https://jywuhe9w9a.execute-api.us-west-2.amazonaws.com/prod/get-forms',
-    submissions: 'https://jywuhe9w9a.execute-api.us-west-2.amazonaws.com/prod/get-entries'
-  }
+     forms: 'https://d3ul21vxig.execute-api.us-west-2.amazonaws.com/prod/get-forms',
+     submissions: 'https://d3ul21vxig.execute-api.us-west-2.amazonaws.com/prod/get-entries'
+   }
 }
